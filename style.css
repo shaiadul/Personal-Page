@@ -40,5 +40,60 @@ nav ul li a:hover {
 
 .logo{
     height: 60px;
-    width: 100px;
+    width: auto;
 }
+.tom{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.tom h1{
+    font-size: 50px;
+    color:#212121;
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(230, 51, 39);
+}
+.tom p{
+    color: #555;
+    line-height: 22px;
+}
+.tom a{
+    background: #212121;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #eff4fd;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 7px;
+}
+
+
+.pic{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.pic img{
+    height: 50%;
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 3s, left 10s;
+}
+
+.pic:hover .pic-0{
+    bottom: 20px;
+}
+.pic:hover .pic-1{
+    left: 0.5px;
+}
+.pic .pic-0{
+    height:70%;
+}
+
+
